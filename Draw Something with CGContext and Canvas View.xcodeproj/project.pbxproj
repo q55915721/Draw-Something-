@@ -12,6 +12,7 @@
 		8376E8FD21FF4919006E1AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8376E8FB21FF4919006E1AFF /* Main.storyboard */; };
 		8376E8FF21FF491A006E1AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8376E8FE21FF491A006E1AFF /* Assets.xcassets */; };
 		8376E90221FF491B006E1AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8376E90021FF491B006E1AFF /* LaunchScreen.storyboard */; };
+		8376E90C21FF5DF7006E1AFF /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8376E90B21FF5DF7006E1AFF /* Canvas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8376E8FE21FF491A006E1AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8376E90121FF491B006E1AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8376E90321FF491B006E1AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8376E90B21FF5DF7006E1AFF /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		8376E8F621FF4919006E1AFF /* Draw Something with CGContext and Canvas View */ = {
 			isa = PBXGroup;
 			children = (
+				8376E90A21FF5DE5006E1AFF /* Views */,
+				8376E90921FF5DD3006E1AFF /* ViewController */,
 				8376E8F721FF4919006E1AFF /* AppDelegate.swift */,
-				8376E8F921FF4919006E1AFF /* ViewController.swift */,
 				8376E8FB21FF4919006E1AFF /* Main.storyboard */,
 				8376E8FE21FF491A006E1AFF /* Assets.xcassets */,
 				8376E90021FF491B006E1AFF /* LaunchScreen.storyboard */,
 				8376E90321FF491B006E1AFF /* Info.plist */,
 			);
 			path = "Draw Something with CGContext and Canvas View";
+			sourceTree = "<group>";
+		};
+		8376E90921FF5DD3006E1AFF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8376E8F921FF4919006E1AFF /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8376E90A21FF5DE5006E1AFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8376E90B21FF5DF7006E1AFF /* Canvas.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +156,7 @@
 			files = (
 				8376E8FA21FF4919006E1AFF /* ViewController.swift in Sources */,
 				8376E8F821FF4919006E1AFF /* AppDelegate.swift in Sources */,
+				8376E90C21FF5DF7006E1AFF /* Canvas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
